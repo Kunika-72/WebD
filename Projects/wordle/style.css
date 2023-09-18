@@ -1,0 +1,32 @@
+* {
+    background-color: #6F61C0;
+}
+
+.container-1-inside {
+    background-color: #A084E8;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 0px;
+    transition-duration: 1s;
+} 
+
+.container-1-inside:hover {
+    background-color: #79b851;
+    
+}
+
+.container-1 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.left, .right {
+    display: flex;
+}
+
+.whole-page {
+    height: 100vh;
+}

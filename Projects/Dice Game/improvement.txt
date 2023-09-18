@@ -1,0 +1,2 @@
+1. Taking input for the names and them displaying them instead of player 1 and player 2. 
+2. 

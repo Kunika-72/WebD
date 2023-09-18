@@ -1,0 +1,70 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 6rem;
+  color: #4ECCA3;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+}
+
+.buttonn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+button {
+  height: 50px;
+  background-color: rgb(25, 135, 84);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  margin-top: 6rem;
+  font-family: 'Indie Flower', cursive;
+  font-size: 2rem;
+  color: white;
+  box-shadow: 20px black;
+  margin: 20px;
+}
+
+.reset a {
+  color: white;
+  text-decoration: none;
+}

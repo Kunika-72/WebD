@@ -1,0 +1,3 @@
+Hello from the node js environment again
+
+Hey the secret message was deleted
