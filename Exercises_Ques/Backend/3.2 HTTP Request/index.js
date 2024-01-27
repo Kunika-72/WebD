@@ -5,7 +5,7 @@ const port= 3000;
 //will send whenever the port will run
 //this data will be sent when the client will request the data
 app.get('/', (req, res)=>{
-    res.send("<h1>Hello WorldS</h1>");
+    res.send("<h1>Hello World</h1>");
 });
 
 app.get('/about', (req, res)=>{

@@ -35,3 +35,8 @@ app.delete("/user/angela", (req, res) => {
 app.listen(port, () => {
   console.log(`Server started on port ${port}`);
 });
+
+app.head(port, ()=> {
+  res.sendStatus(200);
+  console.log("returning the headers only");
+})
